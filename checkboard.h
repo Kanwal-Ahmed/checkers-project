@@ -11,7 +11,7 @@ public:
   {
     for (i = 0;i<num;i++)
     {
-      for (j = 0;j <= num;j++)
+      for (j = 0;j < 4 ;j++)
       {
         system("COLOR F0");
         cout << "\xDB";
@@ -26,6 +26,7 @@ public:
         cout << " ";
       }
     }
+    cout << "\n\n";
   }
 
 };
