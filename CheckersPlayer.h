@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<string.h>
 #include <fstream>
@@ -18,7 +17,7 @@ public:
 	void viewallrecord();
 	void turn();
 	void king_piece(char b[8][8]);// turns pieces into kings if conditions are met
-	
+
 	friend istream& operator >> (istream& is, CheckerPlayer& cp)
 	{
 		return is >> cp.white_player >> cp.red_player;
