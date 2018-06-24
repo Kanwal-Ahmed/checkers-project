@@ -8,7 +8,8 @@ using namespace std;
 
 int main()
 	{
-		cout << "\n\n----CHECKERS GAME DATA RECORD----\n" << endl;
+		cout << "\n\n----WELCOME TO PLAY OUR CHAEKERS GAME----\n" << endl;
+		cout << " ----CHECKERS GAME DATA RECORD---- " << endl;
 		CheckerPlayer p;
 		p.getplayername();
 		p.storeplayerdata();
@@ -43,6 +44,4 @@ int main()
 			++i;
 		} while (i < 100);
 
-		return 0;
 	}
-
